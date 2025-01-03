@@ -1,4 +1,4 @@
-# import random
+import random
 
 
 # while True:
@@ -50,5 +50,5 @@ def play_dice_game():
         else:
             print("Invalid choice! Please enter 'y' to roll and 'n' to quit" )
 
-if __name__ == "main":
+if __name__ == "__main__":
     play_dice_game()
